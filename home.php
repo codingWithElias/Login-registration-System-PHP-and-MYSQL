@@ -11,7 +11,44 @@ if (isset($_SESSION['id']) && isset($_SESSION['user_name'])) {
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-     <h1>Hello, <?php echo $_SESSION['name']; ?></h1>
+     <div class="tree">
+	<ul>
+		<li>
+			<a href="#">Parent</a>
+			<ul>
+				<li>
+					<a href="#">Child</a>
+					<ul>
+						<li>
+							<a href="#">Grand Child</a>
+						</li>
+					</ul>
+				</li>
+				<li>
+					<a href="#">Child</a>
+					<ul>
+						<li><a href="#">Grand Child</a></li>
+						<li>
+							<a href="#">Grand Child</a>
+							<ul>
+								<li>
+									<a href="#">Great Grand Child</a>
+								</li>
+								<li>
+									<a href="#">Great Grand Child</a>
+								</li>
+								<li>
+									<a href="#">Great Grand Child</a>
+								</li>
+							</ul>
+						</li>
+						<li><a href="#">Grand Child</a></li>
+					</ul>
+				</li>
+			</ul>
+		</li>
+	</ul>
+</div>
      <a href="logout.php">Logout</a>
 </body>
 </html>
