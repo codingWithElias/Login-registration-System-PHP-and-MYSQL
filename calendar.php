@@ -150,7 +150,7 @@ body {font-family: Verdana, sans-serif;}
                                         </a>
                                     </li>
                                     <li class="dropdown">
-                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><img src="http://jskrishna.com/work/merkury/images/user-pic.jpg" alt="user">
+                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user" aria-hidden="true"></i>
                                             <b class="caret"></b></a>
                                         <ul class="dropdown-menu">
                                             <li>
