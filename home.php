@@ -92,35 +92,35 @@ if (isset($_SESSION['id']) && isset($_SESSION['user_name'])) {
                     <div class="tree">
 	<ul>
 		<li>
-			<a href="#">Parent</a>
+			<a href="#"><img src="images/amber.jpg" style="width:50px" alt="Avatar"><img src="images/amber.jpg" style="width:50px" alt="Avatar">Parent</a>
 			<ul>
 				<li>
-					<a href="#">Child</a>
+					<a href="#"><img src="images/amber.jpg" style="width:50px" alt="Avatar">Child</a>
 					<ul>
 						<li>
-							<a href="#">Grand Child</a>
+							<a href="#"><img src="images/amber.jpg" style="width:50px" alt="Avatar">Grand Child</a>
 						</li>
 					</ul>
 				</li>
 				<li>
-					<a href="#">Child</a>
+					<a href="#"><img src="images/amber.jpg" style="width:50px" alt="Avatar">Child</a>
 					<ul>
-						<li><a href="#">Grand Child</a></li>
+						<li><a href="#"><img src="images/amber.jpg" style="width:50px" alt="Avatar">Grand Child</a></li>
 						<li>
-							<a href="#">Grand Child</a>
+							<a href="#"><img src="images/amber.jpg" style="width:50px" alt="Avatar">Grand Child</a>
 							<ul>
 								<li>
-									<a href="#">Great Grand Child</a>
+									<a href="#"><img src="images/amber.jpg" style="width:50px" alt="Avatar">Great Grand Child</a>
 								</li>
 								<li>
-									<a href="#">Great Grand Child</a>
+									<a href="#"><img src="images/amber.jpg" style="width:50px" alt="Avatar">Great Grand Child</a>
 								</li>
 								<li>
-									<a href="#">Great Grand Child</a>
+									<a href="#"><img src="images/amber.jpg" style="width:50px" alt="Avatar">Great Grand Child</a>
 								</li>
 							</ul>
 						</li>
-						<li><a href="#">Grand Child</a></li>
+						<li><a href="#"><img src="images/amber.jpg" style="width:50px" alt="Avatar">Grand Child</a></li>
 					</ul>
 				</li>
 			</ul>
