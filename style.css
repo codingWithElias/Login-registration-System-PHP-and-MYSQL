@@ -1,3 +1,4 @@
+/*FAMILY TREE CSS*/
 body {
 	background: #1690A7;
 	display: flex;
@@ -188,12 +189,8 @@ right connector from last child*/
 	border-color:  #94a0b4;
 }
 
-/*Thats all. I hope you enjoyed it.
-Thanks :)*/
-/*Main CSS*/
 
-
-/*Login Signup Page*/
+/*DASHBOARD CSS*/
 a:focus,a:hover,a{
     outline:none;
     text-decoration: none;
@@ -893,3 +890,8 @@ header {
     width: 100%;
 }
 }
+
+
+
+
+/*CALENDAR CSS*/
