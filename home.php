@@ -32,7 +32,7 @@ if (isset($_SESSION['id']) && isset($_SESSION['user_name'])) {
                         <!-- <li><a href="#"><i class="fa fa-bar-chart" aria-hidden="true"></i><span class="hidden-xs hidden-sm">Statistics</span></a></li> -->
                         <li><a href="googlemap.php"><i class="fa fa-user" aria-hidden="true"></i><span class="hidden-xs hidden-sm">Google Map</span></a></li>
                         <li><a href="calendar.php"><i class="fa fa-calendar" aria-hidden="true"></i><span class="hidden-xs hidden-sm">Calendar</span></a></li>
-                        <li><a href="setting.php"><i class="fa fa-cog" aria-hidden="true"></i><span class="hidden-xs hidden-sm">Setting</span></a></li>
+                        <li class="active"><a href="setting.php"><i class="fa fa-info" aria-hidden="true"></i><span class="hidden-xs hidden-sm">About</span></a></li>
                     </ul>
                 </div>
             </div>

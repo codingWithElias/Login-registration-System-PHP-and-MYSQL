@@ -32,7 +32,7 @@ if (isset($_SESSION['id']) && isset($_SESSION['user_name'])) {
                         <!-- <li><a href="#"><i class="fa fa-bar-chart" aria-hidden="true"></i><span class="hidden-xs hidden-sm">Statistics</span></a></li> -->
                         <li><a href="googlemap.php"><i class="fa fa-user" aria-hidden="true"></i><span class="hidden-xs hidden-sm">Google Map</span></a></li>
                         <li><a href="calendar.php"><i class="fa fa-calendar" aria-hidden="true"></i><span class="hidden-xs hidden-sm">Calendar</span></a></li>
-                        <li class="active"><a href="setting.php"><i class="fa fa-cog" aria-hidden="true"></i><span class="hidden-xs hidden-sm">Setting</span></a></li>
+                        <li class="active"><a href="setting.php"><i class="fa fa-info" aria-hidden="true"></i><span class="hidden-xs hidden-sm">About</span></a></li>
                     </ul>
                 </div>
             </div>
@@ -89,9 +89,53 @@ if (isset($_SESSION['id']) && isset($_SESSION['user_name'])) {
                     </header>
                 </div>
                 <div class="user-dashboard"><!-- asdasd -->
-                    <div>
-                        SETTINGS ARI
-                    </div>
+                <!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Our Team Section</title>
+	<link rel="stylesheet" href="styles1.css">
+</head>
+<body>
+
+<div class="wrapper">
+  <h1>Our Team</h1>
+  <div class="team">
+    <div class="team_member">
+      <div class="team_img">
+        <img src="images/kael.jpg" alt="Team_image">
+      </div>
+      <h3>Karl Michael Mauro</h3>
+      <p class="role">UI developer</p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est quaerat tempora, voluptatum quas facere dolorum aut cumque nihil nulla harum nemo distinctio quam blanditiis dignissimos.</p>
+    </div>
+    <div class="team_member">
+      <div class="team_img">
+        <img src="images/louis.png" alt="Team_image">
+      </div>
+      <h3>Louis Arcilla</h3>
+      <p class="role">Tester</p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est quaerat tempora, voluptatum quas facere dolorum aut cumque nihil nulla harum nemo distinctio quam blanditiis dignissimos.</p></div>
+    <div class="team_member">
+      <div class="team_img">
+        <img src="images/van.jpg" alt="Team_image">
+      </div>
+      <h3>Van Coke Velasquez</h3>
+      <p class="role">Support Lead</p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est quaerat tempora, voluptatum quas facere dolorum aut cumque nihil nulla harum nemo distinctio quam blanditiis dignissimos.</p>
+    </div>
+    <div class="team_member">
+      <div class="team_img">
+        <img src="images/tope.png" alt="Team_image">
+      </div>
+      <h3>Christoph Carreon</h3>
+      <p class="role">CEO</p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est quaerat tempora, voluptatum quas facere dolorum aut cumque nihil nulla harum nemo distinctio quam blanditiis dignissimos.</p></div>
+  </div>
+</div>	
+
+</body>
+</html>
                 </div><!-- asdasd -->
             </div>
         </div>
