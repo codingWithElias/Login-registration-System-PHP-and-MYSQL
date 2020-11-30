@@ -111,7 +111,8 @@ if (isset($_SESSION['id']) && isset($_SESSION['user_name'])) {
     <label for="pwd">Address</label>
     <input type="text" class="form-control" id="pwd">
     </div>
-    <a href="home.php" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Add Member</a>
+    <a href="home.php" class="btn btn-success btn-lg active" role="button" aria-pressed="true">Add Member</a>
+    <a href="home.php" class="btn btn-danger btn-lg active" role="button" aria-pressed="true">Cancel</a>
     </form>    
                 
 
