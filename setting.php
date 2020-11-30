@@ -51,9 +51,7 @@ if (isset($_SESSION['id']) && isset($_SESSION['user_name'])) {
                                     </button>
                                 </div>
                             </nav>
-                            <div class="search hidden-xs hidden-sm">
-                                <input type="text" placeholder="Search" id="search">
-                            </div>
+                           
                         </div>
                         <div class="col-md-5">
                             <div class="header-rightside">
