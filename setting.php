@@ -27,7 +27,7 @@ if (isset($_SESSION['id']) && isset($_SESSION['user_name'])) {
                 </div>
                 <div class="navi">
                     <ul>
-                        <li class="active"><a href="home.php"><i class="fa fa-home" aria-hidden="true"></i><span class="hidden-xs hidden-sm">Home</span></a></li>
+                        <li><a href="home.php"><i class="fa fa-home" aria-hidden="true"></i><span class="hidden-xs hidden-sm">Home</span></a></li>
                         <!-- <li><a href="#"><i class="fa fa-tasks" aria-hidden="true"></i><span class="hidden-xs hidden-sm">Workflow</span></a></li> -->
                         <!-- <li><a href="#"><i class="fa fa-bar-chart" aria-hidden="true"></i><span class="hidden-xs hidden-sm">Statistics</span></a></li> -->
                         <li><a href="googlemap.php"><i class="fa fa-user" aria-hidden="true"></i><span class="hidden-xs hidden-sm">Google Map</span></a></li>
@@ -51,18 +51,12 @@ if (isset($_SESSION['id']) && isset($_SESSION['user_name'])) {
                                     </button>
                                 </div>
                             </nav>
-                            <div class="search hidden-xs hidden-sm">
-                            <a href="addmember.php" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Add Member</a>
-                            
-                                <input type="text" placeholder="Search" id="search">
-                            </div>
+                           
                         </div>
-                        
                         <div class="col-md-5">
-                        
                             <div class="header-rightside">
                                 <ul class="list-inline header-top pull-right">
-                                    <!-- <li class="hidden-xs"><a href="#" class="add-project" data-toggle="modal" data-target="#add_project">Add Family</a></li> -->
+                                    <!-- <li class="hidden-xs"><a href="#" class="add-project" data-toggle="modal" data-target="#add_project">Add Project</a></li> -->
                                     <li><a href="#"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
                                     <li>
                                         <a href="#" class="icon-info">
@@ -92,54 +86,57 @@ if (isset($_SESSION['id']) && isset($_SESSION['user_name'])) {
                         </div>
                     </header>
                 </div>
-                
-                <div class="user-dashboard">
-                    <div class="tree">
-                    
-	<ul>
-		<li>
-			<a href="#"><img src="images/amber.jpg" style="width:50px" alt="Avatar"><img src="images/amber.jpg" style="width:50px" alt="Avatar">Parent</a>
-			<ul>
-				<li>
-					<a href="#"><img src="images/amber.jpg" style="width:50px" alt="Avatar">Child</a>
-					<ul>
-						<li>
-							<a href="#"><img src="images/amber.jpg" style="width:50px" alt="Avatar">Grand Child</a>
-						</li>
-					</ul>
-				</li>
-				<li>
-					<a href="#"><img src="images/amber.jpg" style="width:50px" alt="Avatar">Child</a>
-					<ul>
-						<li><a href="#"><img src="images/amber.jpg" style="width:50px" alt="Avatar">Grand Child</a></li>
-						<li>
-							<a href="#"><img src="images/amber.jpg" style="width:50px" alt="Avatar">Grand Child</a>
-							<ul>
-								<li>
-									<a href="#"><img src="images/amber.jpg" style="width:50px" alt="Avatar">Great Grand Child</a>
-								</li>
-								<li>
-									<a href="#"><img src="images/amber.jpg" style="width:50px" alt="Avatar">Great Grand Child</a>
-								</li>
-								<li>
-									<a href="#"><img src="images/amber.jpg" style="width:50px" alt="Avatar">Great Grand Child</a>
-								</li>
-							</ul>
-						</li>
-						<li><a href="#"><img src="images/amber.jpg" style="width:50px" alt="Avatar">Grand Child</a></li>
-					</ul>
-				</li>
-			</ul>
-		</li>
-        
-	</ul>
-</div>
-                </div>
-               
+                <div class="user-dashboard"><!-- asdasd -->
+                <!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Our Team Section</title>
+	<link rel="stylesheet" href="styles1.css">
+</head>
+<body>
+
+<div class="wrapper">
+  <h1>Our Team</h1>
+  <div class="team">
+    <div class="team_member">
+      <div class="team_img">
+        <img src="images/kael.jpg" alt="Team_image">
+      </div>
+      <h3>Karl Michael Mauro</h3>
+      <p class="role">UI developer</p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est quaerat tempora, voluptatum quas facere dolorum aut cumque nihil nulla harum nemo distinctio quam blanditiis dignissimos.</p>
+    </div>
+    <div class="team_member">
+      <div class="team_img">
+        <img src="images/louis.png" alt="Team_image">
+      </div>
+      <h3>Louis Arcilla</h3>
+      <p class="role">Tester</p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est quaerat tempora, voluptatum quas facere dolorum aut cumque nihil nulla harum nemo distinctio quam blanditiis dignissimos.</p></div>
+    <div class="team_member">
+      <div class="team_img">
+        <img src="images/van.jpg" alt="Team_image">
+      </div>
+      <h3>Van Coke Velasquez</h3>
+      <p class="role">Support Lead</p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est quaerat tempora, voluptatum quas facere dolorum aut cumque nihil nulla harum nemo distinctio quam blanditiis dignissimos.</p>
+    </div>
+    <div class="team_member">
+      <div class="team_img">
+        <img src="images/tope.png" alt="Team_image">
+      </div>
+      <h3>Christoph Carreon</h3>
+      <p class="role">CEO</p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est quaerat tempora, voluptatum quas facere dolorum aut cumque nihil nulla harum nemo distinctio quam blanditiis dignissimos.</p></div>
+  </div>
+</div>	
+
+</body>
+</html>
+                </div><!-- asdasd -->
             </div>
-            
         </div>
-         
 
     </div>
 

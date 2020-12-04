@@ -51,11 +51,7 @@ if (isset($_SESSION['id']) && isset($_SESSION['user_name'])) {
                                     </button>
                                 </div>
                             </nav>
-                            <div class="search hidden-xs hidden-sm">
-                            <a href="addmember.php" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Add Member</a>
                             
-                                <input type="text" placeholder="Search" id="search">
-                            </div>
                         </div>
                         
                         <div class="col-md-5">
@@ -92,57 +88,33 @@ if (isset($_SESSION['id']) && isset($_SESSION['user_name'])) {
                         </div>
                     </header>
                 </div>
-                
-                <div class="user-dashboard">
-                    <div class="tree">
-                    
-	<ul>
-		<li>
-			<a href="#"><img src="images/amber.jpg" style="width:50px" alt="Avatar"><img src="images/amber.jpg" style="width:50px" alt="Avatar">Parent</a>
-			<ul>
-				<li>
-					<a href="#"><img src="images/amber.jpg" style="width:50px" alt="Avatar">Child</a>
-					<ul>
-						<li>
-							<a href="#"><img src="images/amber.jpg" style="width:50px" alt="Avatar">Grand Child</a>
-						</li>
-					</ul>
-				</li>
-				<li>
-					<a href="#"><img src="images/amber.jpg" style="width:50px" alt="Avatar">Child</a>
-					<ul>
-						<li><a href="#"><img src="images/amber.jpg" style="width:50px" alt="Avatar">Grand Child</a></li>
-						<li>
-							<a href="#"><img src="images/amber.jpg" style="width:50px" alt="Avatar">Grand Child</a>
-							<ul>
-								<li>
-									<a href="#"><img src="images/amber.jpg" style="width:50px" alt="Avatar">Great Grand Child</a>
-								</li>
-								<li>
-									<a href="#"><img src="images/amber.jpg" style="width:50px" alt="Avatar">Great Grand Child</a>
-								</li>
-								<li>
-									<a href="#"><img src="images/amber.jpg" style="width:50px" alt="Avatar">Great Grand Child</a>
-								</li>
-							</ul>
-						</li>
-						<li><a href="#"><img src="images/amber.jpg" style="width:50px" alt="Avatar">Grand Child</a></li>
-					</ul>
-				</li>
-			</ul>
-		</li>
-        
-	</ul>
-</div>
-                </div>
-               
-            </div>
-            
-        </div>
-         
-
+    
+    <form action="/action_page.php">
+    <h1>Add Member Form</h1>
+    <div class="form-group">
+    <label for="email">First Name</label>
+    <input type="text" class="form-control" id="email">
     </div>
-
+    <div class="form-group">
+    <label for="pwd">Middle Name</label>
+    <input type="text" class="form-control" id="pwd">
+    </div>
+    <div class="form-group">
+    <label for="pwd">Last Name</label>
+    <input type="text" class="form-control" id="pwd">
+    </div>
+    <div class="form-group">
+    <label><input type="radio" name="optradio" checked>Male</label>
+    <label><input type="radio" name="optradio">Female</label> 
+    </div>
+    <div class="form-group">
+    <label for="pwd">Address</label>
+    <input type="text" class="form-control" id="pwd">
+    </div>
+    <a href="home.php" class="btn btn-success btn-lg active" role="button" aria-pressed="true">Add Member</a>
+    <a href="home.php" class="btn btn-danger btn-lg active" role="button" aria-pressed="true">Cancel</a>
+    </form>    
+                
 
 
     <!-- Modal -->
