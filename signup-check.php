@@ -42,6 +42,14 @@ if (isset($_POST['uname']) && isset($_POST['password'])
         header("Location: signup.php?error=The confirmation password  does not match&$user_data");
 	    exit();
 	}
+	else if (strlen($uname)<3 && strlen($pass)<3)
+		{
+            $mess= "please choose another valid username and password greater than 3 or equal to it." ;
+            echo '<script language="javascript">';
+            echo 'alert("'.$mess.'");';  
+            echo 'window.location="http://localhost/logform";';
+            echo '</script>';
+		}
 
 	else{
 
